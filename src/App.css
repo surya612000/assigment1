@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.line {
+  color: #454f84;
+}
+.main1 {
+  background-color: #9ba9eb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-top: 15px;
+  padding-left: 60px;
+}
+
+.card1 {
+  background-color: #5763a5;
+  display: flex;
+  margin: 10px;
+  padding: 50px;
+  height: 70%;
+  border-radius: 15px;
+}
+
+.card2 {
+  background-color: #5763a5;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 50px;
+  height: 70%;
+  border-radius: 15px;
+}
+
+.logo {
+  height: 50px;
+  width: 150px;
+  align-self: flex-start;
+}
+.innerCard {
+  background-color: #454f84;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  border-radius: 15px;
+}
+.heading {
+  font-family: 'Roboto';
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+.website {
+  height: 15px;
+  width: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.input {
+  width: 250px;
+  border-right-style: none;
+  border-top-style: none;
+  border-bottom-style: none;
+  font-family: 'Roboto';
+  font-size: 15px;
+  border-left-style: solid;
+  border-color: #454f84;
+  padding: 10px;
+}
+.input1 {
+  width: 200px;
+  height: 15px;
+  border-style: none;
+  font-family: 'Roboto';
+}
+.inner2 {
+  background-color: white;
+
+  margin: 10px;
+}
+
+.button {
+  font-family: 'Roboto';
+  color: white;
+  background-color: #0b69ff;
+  border-radius: 10px;
+  width: 110px;
+  height: 30px;
+  border-style: none;
+}
+.style1 {
+  align-self: flex-end;
+}
+.image1 {
+  height: 350px;
+  width: 350px;
+}
+.inner3 {
+  display: flex;
+
+  justify-content: space-between;
+
+  flex-grow: 1;
+}
